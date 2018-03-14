@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+<!--表单,也就是用户可以输入的框框-->
+<form>
+    <input type="text"><!--单行文本框-->
+    <br><br>
+    <input type="text" value="a"><!--value是占位符,也就是默认值-->
+     <br><br>
+    <input type="text" placeholder="a"><!--placeholder是占位符,但是不占文本框位置-->
+     <br><br>
+    <input type="text" maxlength="8"><!--最大能输入的字符-->
+     <br><br>
+    <input type="text" placeholder="a" size="50"><!--拓宽单行文本框-->
+    <br><br>
+    <input type="text" value="a" readonly><!--只读-->
+    <br><br>
+    <input type="password" placeholder="密码"><!--placeholder是占位符,但是不占文本框位置-->
+    <br><br>
+    <textarea rows="20">
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+    </textarea>
+    <br><br>
+    <input type="button" value="按钮">
+    <button>按钮</button><!--与JS合作-->
+    <input type="submit" value="提交"><!--提交表单-->
+    <br><br>
+    <input type="range" min="-100" max="100" step="100"><!--数字滑动-->
+    <br>
+    <input type="range" min="-100" max="100" step="100" value="-100"><!--value是起始值-->
+    <br>
+    <input type="number" min="-100" max="10" value=""0><!--手动输入数字-->
+    <br>
+    <input type="checkbox">选择
+    <br>
+    <input type="radio">选择      <!-- 不能取消,是小圆点-->
+    <br>
+    程序界<br>
+    <input type="radio" name="a" checked>我
+    <input type="radio" name="a">我
+    <input type="radio" name="a">我
+    <br>
+    你最喜还吃的水果是什么?
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    <br>
+        你最喜还吃的水果是什么?
+    <input type="text" list="datalist">
+    <datalist id="datalist">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </datalist>
+    <br>
+    <input type="email"><br>
+    <input type="tel"><br>
+    <input type="url"><br>
+    <input type="date"><br><!--获取时间-->
+    <input type="color"><br><!--获取颜色-->
+    <input type="hidden" value="123"><br>
+    <input type="image" src="123H.jpg" width="200px"><br>
+    <input type="file"><!--可以选择文件-->
+    <input type="file" multiple><!--可以选择多个文件-->
+
+</form>
+
+</body>
+</html>

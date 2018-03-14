@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片</title>
+</head>
+<body>
+    <!--<img src="123H.jpg"><br>-->
+    <!--<img src="123H.jpg" width="128px" height="200px">-->
+    <img src="123H.jpg" width="128px" alt="下载按钮"><!--alt提示信息-->
+    <br>
+    <a href="test.html" target="_blank"><!--图片超链接,新建页面-->
+            <img src="123H.jpg" width="128px" alt="下载按钮">
+    </a>
+    <br>
+    <!--创建分区响应图-->
+    <form>
+    <img src="123H.jpg" width="128px" usemap="#map1">
+    </form>
+    <map name="map1">
+        <area href="test.html" coords="0,0,64,64" target="_blank">
+        <area href="form.html" coords="64,64,128,128" target="_blank">
+    </map>
+
+<img src="123H.jpg" width="128" usemap="map2">
+<map name="map2">
+    <area href="test.html" shape="circle" coords="20px,20px,20px" target="_blank">
+
+</map>
+</body>
+</html>
