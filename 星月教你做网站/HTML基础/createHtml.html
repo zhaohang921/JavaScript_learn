@@ -1,0 +1,134 @@
+<!DOCTYPE html><!--浏览器得知自己要处理的内容是html-->
+<html><!--文档中HTML部分的开始-->
+<head><!--提供有关文档内容和标记信息的-->
+    <meta charset="UTF-8"><!--编码-->
+    <title>靠谱学院</title><!--标题-->
+</head>
+<body>
+
+<!--超链接
+<a href="test.html" target="_blank">kaopu1</a>新打开一个网页
+<a href="test.html" >kaopu2</a>在原网页切换网页
+<a href="test.html" target="_self">kaopu3</a>效果同上，在原网页切换网页-->
+<!--粗体-->
+<!--<b>kaopu</b>-->
+<!--斜体-->
+<!--<em>kaopu</em>-->
+<!--删除线-->
+<!--<s>kaopu</s>-->
+
+<!--表格table元素-->
+<table>
+    <thead><!--表头-->
+    <tr>
+        <th>用户名</th><!--标题-->
+        <th>性别</th>
+        <th>年龄</th>
+    </tr>
+    </thead>
+    <tbody><!--表体-->
+    <tr>
+        <td>a</td>
+        <td>男</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>b</td>
+        <td>男</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>c</td>
+        <td>男</td>
+        <td>21</td>
+    </tr>
+    </tbody>
+    <tfoot><!--表尾-->
+    <tr>
+        <td>d</td>
+        <td>男</td>
+        <td>24</td>
+    </tr>
+    </tfoot>
+</table>
+<br><!--换行-->
+<table border="1px">
+    <thead><!--表头-->
+    <tr>
+        <th>用户名</th><!--标题-->
+        <th>性别</th>
+        <th>年龄</th>
+    </tr>
+    </thead>
+    <tbody><!--表体-->
+    <tr>
+        <td rowspan="2">a</td><!--合并列单元格-->
+        <td>男</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>b</td>
+        <td colspan="2">男  22</td><!--合并行单元格-->
+        <!--<td>22</td>-->
+    </tr>
+    <tr>
+        <td>c</td>
+        <td>男</td>
+        <td>21</td>
+    </tr>
+    </tbody>
+    <tfoot><!--表尾-->
+    <tr>
+        <td>d</td>
+        <td>男</td>
+        <td>24</td>
+    </tr>
+    </tfoot>
+</table>
+<br>
+<!--有序列表-->
+<ol>
+    <li><!--表示列表中的项-->
+        a
+    </li>
+    <li>a</li>
+    <li>a</li>
+</ol>
+<ol reversed><!--逆序-->
+    <li><!--表示列表中的项-->
+        a
+    </li>
+    <li>a</li>
+    <li>a</li>
+</ol>
+<ol type="i"><!--序号的类型-->
+    <li><!--表示列表中的项-->
+        a
+    </li>
+    <li>a</li>
+    <li>a</li>
+</ol>
+<ol>
+    <li>a</li>
+    <ol>
+        <li>b</li>
+        <li>c</li>
+    </ol>
+</ol>
+<ul><!--无序标签-->
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ul>
+<!--表单,也就是用户可以输入的框框-->
+<form>
+    <input type="text"><!--单行文本框-->
+    <input type="text" value="a"><!--value是占位符,也就是默认值-->
+    <input type="text" placeholder="a"><!--placeholder是占位符,但是不占文本框位置-->
+    <input type="text">
+
+
+</form>
+
+</body>
+</html><!--文档中HTML部分的结束-->
